@@ -1,1 +1,5 @@
-
+creating a model,training the model. 
+dog,cat,unknown - give atleast 5-6 images for each then train model then it will predict the unknow input. 
+https://teachablemachine.withgoogle.com/models/5A3hKY8-3/
+the above is the created link in teachable model. 
+date : 12.08.2026
