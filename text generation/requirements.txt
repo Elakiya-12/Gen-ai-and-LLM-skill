@@ -6,3 +6,4 @@ timm
 Pillow
 scikit-learn
 joblib
+diffusers
