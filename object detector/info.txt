@@ -1,0 +1,73 @@
+AI OBJECT DETECTION – PROJECT INFO
+
+Project: AI Object Detection Web App
+Main File: obj_detector.py
+Tool: Streamlit
+Model: facebook/detr-resnet-50
+
+TECHNOLOGIES:
+- Python
+- Streamlit
+- Hugging Face Transformers
+- PyTorch
+- Torchvision
+- Timm
+- Pillow
+
+HOW IT WORKS:
+1. Run the Streamlit application.
+2. Upload an image.
+3. DETR model detects objects in the image.
+4. Results are displayed in the Streamlit interface.
+
+RUN PROJECT:
+cd "C:\Users\Elaki\Downloads\gen ai & LLM\text generation"
+
+python -m streamlit run obj_detector.py
+
+REQUIRED PACKAGES:
+streamlit
+transformers
+torch
+torchvision
+timm
+Pillow
+scikit-learn
+joblib
+
+DEPENDENCIES:
+requirements.txt contains the required packages.
+
+IMPORTANT FIX:
+If this error occurs:
+
+ImportError: cannot import name 'pipeline' from 'transformers'
+
+Run:
+
+python -m pip uninstall -y scikit-learn joblib
+python -m pip install --no-cache-dir scikit-learn joblib
+
+Then test:
+
+python -c "from transformers import pipeline; print('PIPELINE WORKS')"
+
+If timm error occurs:
+
+python -m pip install timm
+
+GITHUB:
+Upload:
+- obj_detector.py
+- requirements.txt
+- README.md
+- info.txt
+
+DEPLOYMENT:
+GitHub → Streamlit Community Cloud → Deploy obj_detector.py
+
+NOTE:
+Do not upload API keys, passwords, or unnecessary folders such as __pycache__.
+
+FINAL WORKING COMMAND:
+python -m streamlit run obj_detector.py
