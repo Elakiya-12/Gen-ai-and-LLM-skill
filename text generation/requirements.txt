@@ -1,9 +1,0 @@
-streamlit
-transformers
-torch
-torchvision
-timm
-Pillow
-scikit-learn
-joblib
-diffusers
